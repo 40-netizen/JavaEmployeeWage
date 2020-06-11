@@ -4,8 +4,8 @@ public class AttendaceUC1
   public static void main(String args[])
   {
     Random x = new Random();
-    int rand_present = rand.nextInt();
-    if(rand_present==1)
+    int x_present = x.nextInt();
+    if(x_present==1)
     System.out.println("Present");
     else
     System.out.println("Not present");
