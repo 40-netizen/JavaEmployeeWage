@@ -1,0 +1,19 @@
+import java.util.Random;
+public class DailyWageUC2
+{
+  public static void main(String args[])
+  {
+    int a=1;
+    Random x = new Random();
+    int x_present = x.nextInt();
+    if(a==x)
+    {
+      int wageperhour=20;
+      int fulldayhour=8;
+      int salary=wageperhour*fulldayhour;
+      System.out.println(salary);
+    }
+    else
+    System.out.println("Can not calculate");
+  }
+}
